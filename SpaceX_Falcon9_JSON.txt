@@ -1,0 +1,105 @@
+
+    "active": true,
+    "boosters": 0,
+    "company": "SpaceX",
+    "cost_per_launch": 61200000,
+    "country": "United States",
+    "description": "Falcon 9 is a two-stage rocket designed and manufactured by SpaceX for the reliable and safe transport of satellites and the Dragon spacecraft into orbit.",
+    "diameter": {
+        "feet": 12,
+        "meters": 3.7
+    },
+    "engines": {
+        "engine_loss_max": 2,
+        "layout": "octaweb",
+        "number": 9,
+        "propellant_1": "liquid oxygen",
+        "propellant_2": "RP-1 kerosene",
+        "thrust_sea_level": {
+            "kN": 845,
+            "lbf": 190000
+        },
+        "thrust_to_weight": 180.1,
+        "thrust_vacuum": {
+            "kN": 914,
+            "lbf": 205500
+        },
+        "type": "merlin",
+        "version": "1D+"
+    },
+    "first_flight": "2010-06-04",
+    "first_stage": {
+        "burn_time_sec": 162,
+        "engines": 9,
+        "fuel_amount_tons": 385,
+        "reusable": true,
+        "thrust_sea_level": {
+            "kN": 7607,
+            "lbf": 1710000
+        },
+        "thrust_vacuum": {
+            "kN": 8227,
+            "lbf": 1849500
+        }
+    },
+    "height": {
+        "feet": 229.6,
+        "meters": 70
+    },
+    "id": "falcon9",
+    "landing_legs": {
+        "material": "carbon fiber",
+        "number": 4
+    },
+    "mass": {
+        "kg": 549054,
+        "lb": 1207920
+    },
+    "name": "Falcon 9",
+    "payload_weights": [
+        {
+            "id": "leo",
+            "kg": 22800,
+            "lb": 50265,
+            "name": "Low Earth Orbit"
+        },
+        {
+            "id": "gto",
+            "kg": 8300,
+            "lb": 18300,
+            "name": "Geosynchronous Transfer Orbit"
+        },
+        {
+            "id": "mars",
+            "kg": 4020,
+            "lb": 8860,
+            "name": "Mars Orbit"
+        }
+    ],
+    "second_stage": {
+        "burn_time_sec": 397,
+        "engines": 1,
+        "fuel_amount_tons": 90,
+        "payloads": {
+            "composite_fairing": {
+                "diameter": {
+                    "feet": 17.1,
+                    "meters": 5.2
+                },
+                "height": {
+                    "feet": 43,
+                    "meters": 13.1
+                }
+            },
+            "option_1": "dragon",
+            "option_2": "composite fairing"
+        },
+        "thrust": {
+            "kN": 934,
+            "lbf": 210000
+        }
+    },
+    "stages": 2,
+    "success_rate_pct": 94,
+    "type": "rocket"
+}
